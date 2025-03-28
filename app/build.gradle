@@ -102,7 +102,7 @@ dependencies {
             because("Only volley 1.2.0 or newer are available on maven.google.com")
         }
     }
-
+    implementation "androidx.lifecycle:lifecycle-runtime-compose:$lifecycle_version"
     implementation "androidx.activity:activity-compose:1.10.0"
     implementation "androidx.appcompat:appcompat:1.7.0"
     implementation "androidx.tracing:tracing:1.2.0"
